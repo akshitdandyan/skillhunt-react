@@ -7,6 +7,7 @@ import Modal from "../components/Modal";
 import Popup from "../components/Popup";
 import Auth from "./auth";
 import Candidates from "./candidates";
+import ContactPage from "./contact";
 import Dashboard from "./dashboard/Dashboard";
 import Home from "./home";
 import Jobs from "./jobs";
@@ -22,6 +23,7 @@ export default function Pages() {
                     <Route path="/dashboard/*" element={<Dashboard />} />
                     <Route path="/jobs" element={<Jobs />} />
                     <Route path="/candidates" element={<Candidates />} />
+                    <Route path="/contact" element={<ContactPage />} />
                 </Routes>
             </div>
             <Footer />
